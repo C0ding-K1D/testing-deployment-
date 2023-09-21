@@ -14,7 +14,9 @@ export default function MediumBlog() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get("https://server:8000/v1/allarticles");
+        const response = await axios.get(
+          "http://18.119.129.97:8000/v1/allarticles"
+        );
         setData(response.data);
       } catch (error) {
         console.error("Error fetching data:", error);

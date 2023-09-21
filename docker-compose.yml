@@ -16,8 +16,6 @@ services:
       - "8000:8000"
     networks:
       - my_network
-    environment:
-      - SERVER_HOST=https://18.119.129.97:8000 # Replace with your EC2's IPv4 address
 
   nginx:
     image: nginx:alpine

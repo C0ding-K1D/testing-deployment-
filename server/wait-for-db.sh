@@ -17,4 +17,4 @@ wait_for_db
 
 npx prisma migrate dev --name dbinit
 npx prisma generate
-npm run start
+node server.js
