@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: ./client
+    networks:
+      - my_network
+    ports:
+      - "5173:5173"
+
+  server:
+    build:
+      context: ./server
+    ports:
+      - "8000:8000"
+    networks:
+      - my_network
+    environment:
+      - SERVER_HOST=https://18.119.129.97:8000 # Replace with your EC2's IPv4 address
+
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+    depends_on:
+      - frontend
+      - server
+
+networks:
+  my_network:

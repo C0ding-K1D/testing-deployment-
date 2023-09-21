@@ -1,0 +1,17 @@
+.portfolio_item {
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+
+.portfolio_item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.portfolio_img {
+  border-radius: 1.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}

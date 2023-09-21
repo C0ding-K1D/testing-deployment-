@@ -1,0 +1,46 @@
+.btnContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.iconContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.innerIconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 2rem;
+}
+
+.heroImg {
+  max-width: 50%;
+  margin-left: 2rem;
+}
+
+.scrollText {
+  transform: rotate(90deg);
+}
+
+@media screen and (max-width: 1000px) {
+  .innerIconContainer {
+    display: none;
+  }
+
+  .scrollText {
+    display: none;
+  }
+
+  .heroImg {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+}

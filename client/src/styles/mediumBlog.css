@@ -1,0 +1,26 @@
+.card_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 19rem;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  margin: 1rem;
+}
+
+.card_item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* .card_item-title {
+  margin: 2rem 0 2rem 0;
+} */
+.card_img {
+  border-radius: 1.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,20 @@
+.icon {
+  margin-right: 1rem;
+  stroke: #673ab7;
+  color: #d1c4e9;
+}
+
+@media screen and (max-width: 600px) {
+  .css-icon,
+  .bootstrap-icon,
+  .node-icon,
+  .java-icon,
+  .spring-icon,
+  .psql-icon {
+    margin-left: -0.5rem;
+  }
+
+  .react-icon {
+    margin-left: -0.7rem;
+  }
+}
