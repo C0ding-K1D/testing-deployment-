@@ -24,7 +24,7 @@ function Contact() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://18.119.129.97:8000/v1/send-email", {
+      const response = await fetch("https://3.145.115.241:8000/v1/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

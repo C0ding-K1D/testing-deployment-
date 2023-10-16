@@ -14,7 +14,7 @@ export const Hero = () => {
     try {
       // Replace with your server's endpoint
       const response = await axios.get(
-        "http://18.119.129.97:8000/v1/download",
+        "https://3.145.115.241:8000/v1/download",
         {
           responseType: "blob", // Set the response type to 'blob' to handle binary data
         }

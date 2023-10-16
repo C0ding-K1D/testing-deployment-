@@ -128,10 +128,10 @@ function About() {
                   },
                 }}
               >
-                Hi, I'm Matthew, a passionate junior full-stack developer with a
-                love for crafting web solutions. My journey into the world of
-                coding began with a fascination for front-end design, but it
-                quickly evolved as I delved into the intricacies of back-end
+                Hi, I'm Matthew, a passionate full-stack developer with a love
+                for crafting web solutions. My journey into the world of coding
+                began with a fascination for front-end design, but it quickly
+                evolved as I delved into the intricacies of back-end
                 development. I thrive on tackling complex challenges, turning
                 them into elegant, user-friendly applications. With a solid
                 foundation in programming languages like JavaScript and Java,
